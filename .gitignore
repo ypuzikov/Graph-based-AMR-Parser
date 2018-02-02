@@ -1,0 +1,28 @@
+*/*.com
+*/*.class
+*/*.o
+*/*.so
+**/*.pyc
+
+.DS_Store
+.idea
+
+data/
+experiments/
+sandbox/
+resources/
+stats/
+models/
+
+# configuration files
+scripts/config_files/*
+
+# script to generate a GXP taskfile
+scripts/gen_gxp_taskfile.py
+
+**/trash*
+**/*.json
+**/*.txt
+**/*.ipynb
+**/*~
+**/*.pkl
