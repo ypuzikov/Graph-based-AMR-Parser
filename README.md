@@ -2,8 +2,8 @@
 
 An implementation of a graph-based AMR parsing system. Inspired by:
 
-   - "A Discriminative Graph-Based Parser for the Abstract Meaning Representation" (J. Flanigan, S. Thomson, J. Carbonell, C. Dyer, N. Smith). Proc. ACL, 2014. [pdf] [jamr-paper]
-   - "Robust Subgraph Generation Improves Abstract Meaning Representation Parsing" (K. Werling, G. Angeli, and C. Manning), Proc. ACL, 2015. [pdf] [werling-paper]
+   - "A Discriminative Graph-Based Parser for the Abstract Meaning Representation" (J. Flanigan, S. Thomson, J. Carbonell, C. Dyer, N. Smith). Proc. ACL, 2014. [pdf][jamr-paper]
+   - "Robust Subgraph Generation Improves Abstract Meaning Representation Parsing" (K. Werling, G. Angeli, and C. Manning), Proc. ACL, 2015. [pdf][werling-paper]
  
 ## Version
 0.1.0
@@ -11,20 +11,20 @@ An implementation of a graph-based AMR parsing system. Inspired by:
 ## Dependencies
 The system is written in Python 2.7, relying on the following libraries:
 
-* [numpy] [np]
-* [scipy] [scp]
-* [sklearn] [sklrn]
-* [matplotlib] [matplot]
-* [networkx] [nx]
-* [pattern.en] [pattern]
-* [parsimonious] [parsimonious-lib]
-* [pyjarowinkler] [jaro]
+* [numpy][np]
+* [scipy][scp]
+* [sklearn][sklrn]
+* [matplotlib][matplot]
+* [networkx][nx]
+* [pattern.en][pattern]
+* [parsimonious][parsimonious-lib]
+* [pyjarowinkler][jaro]
 
 The preprocessing pipeline makes use of the following software:
 
-* [Stanford Corenlp 3.6.0] [corenlp]
-* [MATE Tools] [mate-tools] (semantic role labelling system with pretrained model files: [srl-4.31.tgz] [srl])
-* [JAMR] [jamr]
+* [Stanford Corenlp 3.6.0][corenlp]
+* [MATE Tools][mate-tools] (semantic role labelling system with pretrained model files: [srl-4.31.tgz][srl])
+* [JAMR][jamr]
 
 You will need to download them and specify the corresponding paths in the ```./scripts/config_files/env_config.sh``` file
 
